@@ -1,0 +1,46 @@
+
+.data{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   margin-bottom: 30vh;
+   margin-top: 15vh;
+}
+.datagrid{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+  text-align: center;
+  padding: 4px 5px;
+}
+
+.dimg  {
+  
+    justify-content: center;
+    align-items: center;
+}
+.dinfo{
+
+    text-align: center;
+}
+.dimg > img {
+    width: 200px;
+    height: 120px;
+}
+
+
+
+.softcont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: gray;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.softleft{
+    text-align: center;
+    align-items: center;
+}
