@@ -1,33 +1,25 @@
-
-import Home from './pages/Home';
-import Navbar from './componets/Navbar';
-import {BrowserRouter,Routes,Route} from "react-router-dom"
-import About from './pages/About';
-import Projectpage from './pages/Projectpage';
-
-import "./App.css"
-import Footer from './componets/Footer';
-import Coverletter from './Coverletter';
-
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Experience from "./pages/Experience";
+import Navbar from "./componets/Navbar";
+import Footer from "./componets/Footer";
+import ProjectDisplay from "./pages/ProjectDisplay";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <div className='all'>
-
-
-      <BrowserRouter>
-      <Routes >
-        <Route path=''  element={<Home/>} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/project' element={<Projectpage/>}/>
-        <Route path='/resume'  element={<Coverletter/>}/>
-      </Routes>
-      </BrowserRouter>
-      <Footer/>
-      </div>
-     
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:id" element={<ProjectDisplay />} />
+          <Route path="/experience" element={<Experience />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,80 @@
+
+
+:root{
+    --dark-purple:#203028;
+    --light-purple:#1b4883;
+}
+.header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, var(--dark-purple),var(--light-purple));
+}
+
+
+.header img {
+   
+height: 14rem;
+    width: 13rem;
+    border-radius: 60%;
+    justify-self: center;
+    align-self:flex-end;
+}
+#main-title{
+    padding: 2rem;
+    align-self: flex-start;
+    width: 40rem;
+ 
+}
+
+
+/* icons stylying here */
+.icons-wrapper{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    padding: .7rem;
+    overflow: hidden;
+}
+.item{
+    width: 40px;
+    height: 40px;
+    margin: 0.7rem;
+}
+.item1{
+     background: url(/src/Compontents/header/images/php.png) ;
+      
+    background-color: red;
+    
+    
+}
+.item2{
+    /* background: url() no-repeat; */
+    background-color: green;
+}
+.item3{
+    /* background: url() no-repeat; */
+    background-color: blue;
+}
+.item4{
+    /* background: url() no-repeat; */
+    background-color: yellow;
+}
+.item5{
+    /* background: url() no-repeat; */
+    background-color: whitesmoke;
+}
+.item6{
+    /* background: url() no-repeat; */
+    background-color: black;
+}
+.item7{
+    /* background: url() no-repeat; */
+    background-color: violet;
+}
+.item8{
+    /* background: url() no-repeat; */
+    background-color: purple;
+}
