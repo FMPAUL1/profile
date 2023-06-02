@@ -34,8 +34,8 @@ function Home() {
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, Java ExpressJS, GraphQL, 
-              MySQL, MongoDB,  MYSQL
+             Django, NodeJS, Java ExpressJS, GraphQL, 
+              MySQL, MongoDB,  MYSQLite
             </span>
             <h2>DATA ANALYTICS </h2>
             <span>
